@@ -1,0 +1,19 @@
+#font-awesome {
+    position: absolute;
+    text-align: right;
+    right: 150px;
+    padding: 45px;
+}
+
+.icon {
+    padding-left: 20px;
+}
+
+@media(max-width: 800px) {
+    #font-awesome {
+
+        visibility: hidden;
+        z-index: -9;
+
+    }
+}

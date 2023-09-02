@@ -1,0 +1,25 @@
+.alice-carousel {
+    position: relative;
+    width: 80%;
+    direction: ltr;
+    text-align: center;
+    z-index: -9;
+
+}
+
+.image {
+    max-width: 80%;
+    max-height: 95vh;
+    border: black 5px solid;
+}
+
+@media screen and (max-width: 800px) {
+
+    .image {
+        max-width: 80%;
+    }
+
+    .alice-carousel {
+        padding-top: 30px;
+    }
+}
