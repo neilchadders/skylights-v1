@@ -6,6 +6,7 @@
     padding: 8px;
     border: 3px solid black;
     margin-right: 25px;
+    top: 20px;
 }
 
 #links {
@@ -123,7 +124,7 @@
 }
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 945px) {
     .link-hov {
         display: none;
 
@@ -138,18 +139,15 @@
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 945px) {
     #hamburger-menu {
-        height: 20px;
-        width: 20px;
+        height: 50px;
+        width: 50px;
     }
 
     #home {
-        font-size: .8em;
-        ;
+        font-size: 1.3em;
     }
-
-
 }
 
 

@@ -2,6 +2,7 @@ import React from 'react';
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
 import './carousel.styles.css'
+import bg from './bg3.jpeg'
 
 const items = [
     <div className="item" data-value="1"><img className="image" alt="test" src="https://www.yorkpress.co.uk/resources/images/10809630/?type=responsive-gallery-fullscreen" /></div>,
@@ -12,17 +13,20 @@ const items = [
 ];
 
 const Carousel = () => (
-    <AliceCarousel id="carousel"
-        autoPlay
-        autoPlayStrategy="none"
-        autoPlayInterval={2000}
-        animationDuration={4000}
-        animationType="slide"
-        infinite
-        touchTracking={false}
-        disableDotsControls
-        disableButtonsControls
-        items={items}
-    />
+    <div className=' carousel-di'>
+        <img src={bg} className="bgimg"></img>
+        <AliceCarousel id="carousel"
+            autoPlay
+            autoPlayStrategy="none"
+            autoPlayInterval={2000}
+            animationDuration={4000}
+            animationType="slide"
+            infinite
+            touchTracking={false}
+            disableDotsControls
+            disableButtonsControls
+            items={items}
+        />
+    </div>
 );
 export default Carousel

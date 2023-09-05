@@ -10,6 +10,7 @@ const Header = () => {
         <div id='header'>
             <Links />
             <FontAwesome />
+
         </div>
 
     )
