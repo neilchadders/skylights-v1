@@ -1,14 +1,16 @@
-.carousel-div {}
+.carousel-div {
+    display: flex;
+}
+
 
 .alice-carousel {
     position: relative;
-    width: 80%;
-    top: -80em;
+    width: 70%;
+
     direction: ltr;
     text-align: center;
     z-index: -8;
     padding-top: 40px;
-    padding-bottom: 40px;
 
 
 }
@@ -18,17 +20,9 @@
 }
 
 .image {
-    max-width: 80%;
+    max-width: 70%;
 
 
-}
-
-
-.bgimg {
-    opacity: 1;
-    z-index: -9;
-    text-align: center;
-    position: relative;
 }
 
 
@@ -36,25 +30,19 @@
 
     .item {
         min-width: 1em;
-        max-height: 150px;
+
     }
 
     .image {
-        max-width: 90%;
+        max-height: 95%;
     }
 
     .alice-carousel {
         position: relative;
         padding-top: 30px;
         padding-bottom: 30px;
-        top: -25em;
-
-    }
-
-    .bgimg {
-        opacity: 0.3;
-
 
 
     }
+
 }

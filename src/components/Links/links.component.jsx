@@ -22,7 +22,7 @@ const Links = () => {
             <input type="checkbox" id="hamburger-input" class="burger-shower" />
             <label id="hamburger-menu" for="hamburger-input">
                 <nav id="sidebar-menu">
-                    <MenuIcons />
+
                     <a href='#home' id="home">SKYLIGHTS</a>
                     <ul>
                         <li><a href='#about'>about</a></li>
@@ -31,6 +31,7 @@ const Links = () => {
                         <li><a href="#releases">releases</a></li>
 
                     </ul>
+                    <MenuIcons />
                 </nav>
             </label>
 

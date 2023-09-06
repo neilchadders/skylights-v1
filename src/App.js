@@ -1,6 +1,6 @@
 import Header from './components/Header/header.component.jsx'
 import Carousel from './components/Carousel/carousel.component.jsx'
-import Title from './components//Title/title.component.jsx'
+//import Title from './components//Title/title.component.jsx'
 import Gigs from './components/Gigs/gigs.component.jsx'
 import { library } from '@fortawesome/fontawesome-svg-core'
 
@@ -16,7 +16,7 @@ const App = () => {
   return (
     <>
       <Header />
-      <Title />
+
       <Carousel />
       <Gigs />
 
