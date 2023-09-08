@@ -21,6 +21,7 @@
 
 .image {
     max-width: 70%;
+    background-repeat: repeat;
 
 
 }
@@ -28,12 +29,10 @@
 
 @media screen and (max-width: 800px) {
 
-    .item {
-        min-width: 1em;
 
-    }
 
     .image {
+
         max-height: 95%;
     }
 

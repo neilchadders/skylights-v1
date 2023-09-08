@@ -17,8 +17,8 @@ const Carousel = () => (
         <AliceCarousel id="carousel"
             autoPlay
             autoPlayStrategy="none"
-            autoPlayInterval={2000}
-            animationDuration={4000}
+            autoPlayInterval={500}
+            animationDuration={2000}
             animationType="slide"
             infinite
             touchTracking={false}
