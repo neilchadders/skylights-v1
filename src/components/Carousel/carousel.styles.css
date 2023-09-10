@@ -1,5 +1,7 @@
 .carousel-div {
     display: flex;
+
+
 }
 
 
@@ -20,9 +22,7 @@
 }
 
 .image {
-    max-width: 70%;
-    background-repeat: repeat;
-
+    max-width: 80%;
 
 }
 
