@@ -1,4 +1,4 @@
-import './gigs.styles.css'
+//import './gigs.styles.css'
 
 const Gigs = () => {
     return (
