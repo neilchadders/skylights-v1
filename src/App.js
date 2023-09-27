@@ -13,7 +13,7 @@ import { fas } from '@fortawesome/free-solid-svg-icons'
 import { far } from '@fortawesome/free-regular-svg-icons'
 
 import './App.css';
-import Mainvideo from './components/Mainvideo/mainvideo.component.jsx'
+
 
 
 
@@ -24,7 +24,7 @@ const App = () => {
       <Carousel />
       <Bgimg />
 
-      <Mainvideo />
+
 
 
     </> // fragment
