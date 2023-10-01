@@ -2,7 +2,6 @@ import React from 'react';
 import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
 import './carousel.styles.css'
-//import bg from './bg4.png'
 
 const items = [
     <div className="item" data-value="1"><img className="image" alt="test" src="https://www.yorkpress.co.uk/resources/images/10809630/?type=responsive-gallery-fullscreen" /></div>,
@@ -13,7 +12,6 @@ const items = [
 
 const Carousel = () => (
     <div className=' carousel-div'>
-        {/*<img src={bg} className="bgimg"></img>*/}
         <AliceCarousel id="carousel"
             autoPlay
             autoPlayStrategy="none"
@@ -26,6 +24,7 @@ const Carousel = () => (
             disableButtonsControls
             items={items}
         />
+
     </div>
 );
 export default Carousel

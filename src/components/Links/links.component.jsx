@@ -9,14 +9,15 @@ const Links = () => {
 
     return (
         <div id="links">
-            <a href='#home' id="home">SKYLIGHTS</a>
-            <a href='#about' className="link-hov">about</a>
+            <a href='#about' className="link-hov">Home</a>
             <span className="pipe">|</span>
-            <a href='#gigs' className="link-hov">gigs</a>
+            <a href='#about' className="link-hov">About</a>
             <span className="pipe">|</span>
-            <a href='#shop' className="link-hov">shop</a>
+            <a href='#gigs' className="link-hov">Gigs</a>
             <span className="pipe">|</span>
-            <a href="#releases" className="link-hov">releases</a>
+            <a href='#shop' className="link-hov">Shop</a>
+            <span className="pipe">|</span>
+            <a href="#releases" className="link-hov">Releases</a>
 
 
             <input type="checkbox" id="hamburger-input" class="burger-shower" />

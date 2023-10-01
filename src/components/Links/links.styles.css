@@ -1,38 +1,29 @@
-#home {
-    font-family: 'Archivo', sans-serif;
-    color: black;
-    text-decoration: none;
-    font-size: 1.2em;
-    padding: 8px;
-    border: 3px solid black;
-    margin-right: 25px;
-
-}
-
 #links {
     padding-top: 32px;
-
+    color: white;
     padding-left: 20px;
     font-size: 1.2em;
-    font-weight: 500;
+    font-weight: 700;
     padding-bottom: 0px;
+    background-color: black;
 
 
 }
 
 .link-hov {
-    color: black;
+    color: white;
     text-decoration: none;
 
 
 }
 
 .link-hov:hover {
-    text-decoration: underline;
+
+    color: yellow;
 }
 
 .pipe {
-    color: black;
+    color: blue;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -57,7 +48,7 @@
 
 #hamburger-menu {
     position: absolute;
-    top: 20px;
+    top: 60px;
     right: 3%;
     width: 32px;
     height: 32px;
@@ -66,11 +57,11 @@
     padding: 0px;
     margin: 0px;
     background: linear-gradient(to bottom,
-            black, black 20%,
-            #FAF9F6 20%, #FAF9F6 40%,
-            black 40%, black 60%,
-            #FAF9F6 60%, #FAF9F6 80%,
-            black 80%, black 100%);
+            white, white 20%,
+            black 20%, black 40%,
+            white 40%, white 60%,
+            black 60%, black 80%,
+            white 80%, white 100%);
 }
 
 #hamburger-menu #sidebar-menu {
@@ -141,8 +132,9 @@
 
 @media screen and (max-width: 945px) {
     #hamburger-menu {
-        height: 50px;
-        width: 50px;
+        top: 84px;
+        height: 30px;
+        width: 30px;
     }
 
     #home {

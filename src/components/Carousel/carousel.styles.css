@@ -1,5 +1,7 @@
 .carousel-div {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
 
 
 }
@@ -12,36 +14,32 @@
     direction: ltr;
     text-align: center;
     z-index: -8;
-    padding-top: 40px;
+    padding-top: 90px;
 
 
 }
 
-.item {
-    min-width: 12em;
-}
 
 .image {
     max-width: 80%;
 
+
+
 }
+
 
 
 @media screen and (max-width: 800px) {
 
 
-
-    .image {
-
-        max-height: 95%;
-    }
-
     .alice-carousel {
         position: relative;
-        padding-top: 30px;
-        padding-bottom: 30px;
+        padding-top: 80px;
 
-
+        margin-top: 10%;
     }
 
+    .image {
+        max-width: 90%;
+    }
 }
