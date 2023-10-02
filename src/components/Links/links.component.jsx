@@ -1,5 +1,7 @@
 
 import MenuIcons from "../MenuIcons/menu.icon.component"
+import { Link } from "react-router-dom"
+
 import "./links.styles.css"
 
 
@@ -9,27 +11,27 @@ const Links = () => {
 
     return (
         <div id="links">
-            <a href='#about' className="link-hov">Home</a>
+            <Link className="link-hov" to='/'>Home</Link>
             <span className="pipe">|</span>
-            <a href='#about' className="link-hov">About</a>
+            <Link className="link-hov" to='about'>About</Link>
             <span className="pipe">|</span>
-            <a href='#gigs' className="link-hov">Gigs</a>
+            <Link className="link-hov" to='gigs'>Gigs</Link>
             <span className="pipe">|</span>
-            <a href='#shop' className="link-hov">Shop</a>
+            <Link className="link-hov" to='shop'>Shop</Link>
             <span className="pipe">|</span>
-            <a href="#releases" className="link-hov">Releases</a>
+            <Link className="link-hov" to='about'>Rleases</Link>
 
 
             <input type="checkbox" id="hamburger-input" class="burger-shower" />
             <label id="hamburger-menu" for="hamburger-input">
                 <nav id="sidebar-menu">
 
-                    <a href='#home' id="home">SKYLIGHTS</a>
+                    <Link id="home" to='/'>SKYLIGHTS</Link>
                     <ul>
-                        <li><a href='#about'>about</a></li>
-                        <li><a href='#gigs'>gigs</a></li>
-                        <li><a href='#shop'>shop</a></li>
-                        <li><a href="#releases">releases</a></li>
+                        <li><Link to='about'>about</Link></li>
+                        <li><Link to='gigs'>gigs</Link></li>
+                        <li><Link to='shop'>shop</Link></li>
+                        <li><Link to='releases'>releases</Link></li>
 
                     </ul>
                     <MenuIcons />
